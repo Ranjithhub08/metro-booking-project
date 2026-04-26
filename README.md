@@ -1,48 +1,66 @@
-# 🚇 MetroPass - Smart Metro Ticket Booking System
+# <img src="https://raw.githubusercontent.com/Ranjithhub08/metro-booking-project/main/banner.png" width="100%" />
 
-A comprehensive Full-Stack DBMS project for planning metro journeys, calculating fares, and generating authentic digital tickets with integrated UPI payment support.
+# 🚇 MetroPass: Smart Metro Ecosystem
 
-## 🚀 Key Features
+[![Premium Design](https://img.shields.io/badge/Design-Premium-blueviolet?style=for-the-badge&logo=vitest)](https://github.com/Ranjithhub08/metro-booking-project)
+[![Relational DBMS](https://img.shields.io/badge/Database-SQLite-blue?style=for-the-badge&logo=sqlite)](https://github.com/Ranjithhub08/metro-booking-project)
+[![Real-time Routing](https://img.shields.io/badge/Algorithm-Shortest--Path-emerald?style=for-the-badge&logo=googlemaps)](https://github.com/Ranjithhub08/metro-booking-project)
 
-- **Multi-City Network**: Support for Hyderabad, Chennai, Bengaluru, and Kochi metro networks.
-- **Intelligent Routing**: Custom BFS-based algorithm to find the shortest path between stations, including automatic interchange detection.
-- **QR Entry System**: A landing page with a scan-to-enter QR code for seamless mobile access.
-- **Real UPI Payments**: Generates dynamic UPI Intent QR codes (compatible with GPay, PhonePe, Paytm) pre-filled with the ticket fare.
-- **Authentic Digital Tickets**: Pixel-perfect ticket design modeled after official metro apps, including security serial numbers and "Save to Gallery" functionality.
-- **Persistent DBMS**: Relational database backend using SQLite to store user data and booking history securely.
+**MetroPass** is a high-end, full-stack DBMS project designed to revolutionize the way commuters interact with metro services. Built with a focus on **Premium User Experience**, it combines a sophisticated relational database with an intelligent routing engine and real-world payment integration.
 
-## 🛠️ Tech Stack
+---
 
-- **Frontend**: React.js, Vite, Tailwind CSS, Headless UI
-- **Backend**: Node.js, Express.js
-- **Database**: SQLite (SQL-based Relational DBMS)
-- **Tools**: JWT (Auth), Bcrypt (Security), QR-Server API
+## ✨ Super & Premium Features
 
-## 📦 Installation & Setup
+### 🗺️ Intelligent Journey Planning
+*   **BFS-Powered Routing**: Automatically finds the most efficient path between any two stations.
+*   **Interchange Detection**: Seamlessly identifies where you need to change lines.
+*   **Live Fare Calculation**: Dynamic pricing based on station distance and travel duration.
 
-1. **Clone the repository**:
+### 💳 Real-World Payments (UPI Integration)
+*   **Dynamic QR Generation**: Pay via GPay, PhonePe, or Paytm using instantly generated UPI Intent QR codes.
+*   **Personalized VPA**: Integrated with personal banking details for direct-to-account settlements.
+
+### 🎫 Elite Ticket Experience
+*   **Authentic Design**: High-fidelity digital tickets modeled after official metro authority passes.
+*   **Security First**: Each ticket includes unique encrypted serial numbers and validity timestamps.
+*   **Save to Gallery**: One-click download for offline use.
+
+### 📱 Seamless Mobile Entry
+*   **Landing Page QR**: Scan a dedicated landing page QR to instantly bridge the app from your laptop to your smartphone.
+
+---
+
+## 🛠️ Technology Stack
+
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend** | React.js, Vite, Tailwind CSS, Headless UI |
+| **Backend** | Node.js, Express.js |
+| **Database** | SQLite (Relational SQL) |
+| **Integrations** | UPI Pay Protocol, QR-Server API |
+
+---
+
+## 🚀 Quick Setup
+
+1. **Clone & Enter**:
    ```bash
-   git clone <your-repo-url>
-   cd dbms_project
+   git clone https://github.com/Ranjithhub08/metro-booking-project.git
+   cd metro-booking-project
    ```
 
-2. **Install Dependencies**:
+2. **Auto-Install Dependencies**:
    ```bash
    npm run install:all
    ```
 
-3. **Start the Application**:
+3. **Launch the Engine**:
    ```bash
    npm run dev
    ```
 
-4. **Access the App**:
-   - **Frontend**: [http://localhost:5173](http://localhost:5173)
-   - **Backend**: [http://localhost:5001](http://localhost:5001)
-
-## 📸 Screenshots
-
-*(Add your project screenshots here to wow your recruiters!)*
-
 ---
-**Note**: This is a DBMS educational project. Payment verification is simulated for demonstration purposes.
+<p align="center">
+  Developed with ❤️ for DBMS Academic Project
+</p>
