@@ -2,10 +2,9 @@
 
 # 🚇 MetroPass: Smart Metro Ecosystem
 
-## 🔗 [CLICK HERE FOR LIVE DEMO](https://github.com/Ranjithhub08/metro-booking-project)
-*(Note: Replace this with your Render URL once deployed)*
+## 🔗 [CLICK HERE FOR LIVE DEMO](https://metro-booking-project.onrender.com)
 
-[![Live Demo](https://img.shields.io/badge/Live--Demo-Click--Here-orange?style=for-the-badge&logo=vercel)](https://github.com/Ranjithhub08/metro-booking-project)
+[![Live Demo](https://img.shields.io/badge/Live--Demo-Click--Here-orange?style=for-the-badge&logo=vercel)](https://metro-booking-project.onrender.com)
 [![Premium Design](https://img.shields.io/badge/Design-Premium-blueviolet?style=for-the-badge&logo=vitest)](https://github.com/Ranjithhub08/metro-booking-project)
 [![Relational DBMS](https://img.shields.io/badge/Database-SQLite-blue?style=for-the-badge&logo=sqlite)](https://github.com/Ranjithhub08/metro-booking-project)
 [![Real-time Routing](https://img.shields.io/badge/Algorithm-Shortest--Path-emerald?style=for-the-badge&logo=googlemaps)](https://github.com/Ranjithhub08/metro-booking-project)
