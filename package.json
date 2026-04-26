@@ -6,6 +6,8 @@
     "dev:frontend": "cd frontend && npm run dev -- --host",
     "dev:backend": "cd backend && npm run dev",
     "dev": "npx concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "build:render": "npm install && cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "cd backend && node server.js",
     "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
   },
   "devDependencies": {

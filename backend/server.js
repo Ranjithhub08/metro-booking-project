@@ -3,6 +3,7 @@ const cors = require('cors');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const db = require('./db');
+const path = require('path');
 require('dotenv').config();
 
 const app = express();
@@ -11,6 +12,10 @@ const JWT_SECRET = process.env.JWT_SECRET || 'metro_secret_key';
 
 app.use(cors());
 app.use(express.json());
+
+// Serve Static Files from Frontend
+const frontendPath = path.join(__dirname, "../frontend/dist");
+app.use(express.static(frontendPath));
 
 // --- Authentication Routes ---
 
@@ -91,6 +96,11 @@ app.post('/api/bookings', async (req, res) => {
     console.error(err);
     res.status(500).json({ error: 'Server error' });
   }
+});
+
+// Fallback to React Router for any non-API routes
+app.get("*", (req, res) => {
+  res.sendFile(path.join(path.join(__dirname, "../frontend/dist"), "index.html"));
 });
 
 app.listen(PORT, () => {
