@@ -61,6 +61,12 @@
    ```
 
 ---
+## 👥 Contributors
+
+- **Ranjith Kumar** ([@Ranjithhub08](https://github.com/Ranjithhub08))
+- **Karthik Kumar Gosala** ([@karthikkumar-gosala](https://github.com/karthikkumar-gosala))
+
+---
 <p align="center">
   Developed with ❤️ for DBMS Academic Project
 </p>
